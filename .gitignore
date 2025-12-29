@@ -1,0 +1,36 @@
+Ignore the virtual environment
+
+venv/
+env/
+
+Ignore compiled python files
+
+pycache/
+*.py[cod]
+
+Ignore the large dataset files (You can't upload huge CSVs to GitHub)
+
+Assuming your raw data is in a folder or just large .csv files
+
+*.csv
+!lstm_test_ids.csv  # Keep small config CSVs if needed, otherwise ignore all .csv
+data/
+r4.2/
+
+Ignore large model files if they are > 100MB (GitHub limit)
+
+If your models are small (<100MB), you can remove these lines to upload them.
+
+*.h5
+*.keras
+*.joblib
+
+Ignore system files
+
+.DS_Store
+Thumbs.db
+
+Ignore IDE settings
+
+.vscode/
+.idea/

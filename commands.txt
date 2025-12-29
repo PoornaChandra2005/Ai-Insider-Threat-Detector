@@ -1,0 +1,8 @@
+venv\Scripts\activate
+
+
+python data_preprocess.py --data-path data/r4.2 --output-path processed_data
+python train_xgboost.py --data-path processed_data/xgb_train.csv --model-dir trained_models
+python train_lstm.py --data-path processed_data/lstm_train.npz --model-dir trained_models --epochs 20
+python evaluate_and_visualize.py --xgb-data processed_data/xgb_test.csv --lstm-data processed_data/lstm_test.npz --lstm-ids-path processed_data/lstm_test_ids.csv --model-dir trained_models --results-dir results
+python demo_threat.py
