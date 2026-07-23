@@ -107,8 +107,6 @@ The system effectively flags malicious insiders while filtering out the vast maj
 * **Nikhith Gowda R** (1EW23AI036)
 * **Abhayadithya N** (1EW23AI001)
 
-**Guide:** Dr. Kavitha A S (HOD, Dept of AIML, EWIT)
-
 ---
 
 ## 📜 License
