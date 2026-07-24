@@ -107,8 +107,3 @@ The system effectively flags malicious insiders while filtering out the vast maj
 * **Nikhith Gowda R** (1EW23AI036)
 * **Abhayadithya N** (1EW23AI001)
 
----
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
