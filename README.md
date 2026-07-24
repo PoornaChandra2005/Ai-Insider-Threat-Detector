@@ -54,7 +54,7 @@ This project uses the **CERT Insider Threat Dataset v4.2** created by the Softwa
 1.  **Clone the Repository**
     ```bash
     git clone https://github.com/PoornaChandra2005/Ai-Insider-Threat-Detector.git
-    cd insider-threat-detection
+    cd Ai-Insider-Threat-Detector
     ```
 
 2.  **Install Dependencies**
